@@ -1,0 +1,108 @@
+   Git Bash Challenge: https://codepen.io/nameisryan/pen/YzPOBQb
+
+   1. What is Semantic HTML? /** Semantic HTML is a way for you to give your HTML meaning. It allows anyone who goes back to look at your code to understand what is what, without having to guess what you are trying to accomplish.
+
+   2. What is HTML used for? /** HTML provides the structure for a web page. It's the bare-bones, the skeleton of the HTML. It lets you decide which headers are more important by providing header tags and allows you to manipulate the tags and classes and ids you use later on when writing your CSS
+
+   3. What is an attribute and where do we put it? /** An attribute provides additional information about an element. These are put usually after the tag. For example, a "href" attribute would be put after an anchor tag and a "src" attribute would be put after an "img" tag, at least most of the time.
+
+   4. What is the h1 tag used for? How many times should I use it on a page? /** The h1 tag is the highest header tag you can use. These should only ever be used once on a page, otherwise none of your headers are important
+
+   5. Name two tags that have required attributes. /** The anchor tag and the img tag
+
+   6. What do we put in the head of our HTML document? /** Usually the information that goes into the head of an HTML is the metadata. This is the data that we don't want anyone to see
+
+   7. What is an id? /** An id is the highest attribute you can add to an element (outside of !important) of course.
+
+   8. What elements can I add an id to? /** You can add an id to any element, although you should use it on the most important items seeing that you can only use the same id once.
+
+   9. How many times can I use the same id on a page? /** As stated in the previous answer, the same id can only be used once. ONLY once. Not once for every element, but just one time. Once you have an id on whatever element you set it to, you cannot use that same id again on any element.
+
+   10. What is a class? /** A class is the 2nd highest attribute you can add to an element.
+
+   11. What elements can I add a class to? /** You can add a class to any elements you want, but you only want to add it on similar elements that you want to change at the same time in CSS.
+
+   12. How many times can I use the same class on a page? /** As many times as you see fit, as long as it makes sense and doesn't infringe on the CSS code.
+
+   13. How do I get my link to open in a new tab? /** (a href = "" target = "_blank")
+
+   14. What is the alt attribute used for? /**  The alt attribute is used on images just in case it doesn't load properly.
+
+   15. How do I reference an id? /** By using the # symbol
+
+   16. What is the difference between a section and a div /** Sections are used when defining certain portions of a webpage (header, footer, certain parts of a webpage that have something in common) while a div has no real meaning other than to provide the CSS code to hook on.
+
+   17. What is CSS used for? /** CSS is used to style your webpage.
+
+   18. How to we select an element? Example - every h2 on the page /** h2 {'style goes here;'}
+
+   19. What is the difference between a class and an id? - Give me an example of when I might use each one /** Depending on how you have your HTML set up, your id is going to take precedent over your class. You would wanwt to use an id if you plan on changing the heading of something and the class selector if you want to change the body. This
+
+   20. How do we select classes in CSS? /** .class (element if applicable){'style goes here'}
+
+   21. How do we select a p element with a single class of “human””? /** .human {'style goes here'}
+
+   22. What is a parent child selector? When would this be useful? /** A parent child selector allows you to drill down in your CSS and allows you to call specific elements in your HTML. This would be useful if you plan on changing only the font of a link or wanting to change a span in a specific element that has a class.
+
+   23. How do you select all links within a div with the class of sidebar? /** .sidebar a {'style goes here'}
+
+   24. What is a pseudo selector? /** A pseudo selector is a selector that gives an element a special look when an action is taken.
+
+   25. What do we use the change the spacing between lines? /** line-height: xxx;
+
+   26. What do we use to change the spacing between letters? /** letter-spacing: xxxx;
+
+   27. What do we use to change everything to CAPITALS? lowercase? Capitalize? /** CAPTIALS: text-transform: uppercase;
+                                                                               /** lowercase: text-transform: lowercase;
+                                                                               /** Capitalize: text-transform: capitalize;
+
+   28. How do I add a 1px border around my div that is dotted and black?
+    div {
+    border: 1px dotted black;
+    }
+
+   29. How do I select everything on the page?
+    * {
+
+    }
+   30. How do I write a comment in CSS?
+    /** **/
+
+
+   31. How do I find out what file I am in, when I am using the command line? You can't really find out what file you are in. The command line is mainly used for navigating to directories. In order to find out what directory you are in, you can type in "pwd".
+
+   32. Using the command line - how do I see a list of files/folders in my current folder? "ls"
+
+   33. How do I remove a file via the command line? Why do I have to be careful with this? "rm file name" You have to be careful because it permanently removes it without warning. So you have to be super careful when deleting files.
+
+   34. Why should I use version control? You should use version control because it allows more than one person to work on a project and you decide which changes on that particular project you want to keep. It also allows you to call back older versions should something happen to the versin you are working on.
+
+   35. How often should I commit to github? As often as you like. Better to save often than save never.
+
+   36. What is the command we would use to push our repo up to github? git push origin 'name of branch'
+
+   37. Walk me through Lambda's git flow. /** Go to project > fork project to your repository > check to make sure your name is next to project > add your TL to your repository by going to Settings then clicking Collaborators on the left hand side > type in your TL's Username and click on their name > head back to your branch of the repository > copy the clone link > go to git bash and use 'cd' and the path you want to clone the git-project to > use git clone 'url' to clone the project to that director > do ls to verify the folder is there now > cd into cloned folder > type git checke -b  'firstname-lastname' to create your own branch > git status to verify that you are on your branch > use 'atom' or 'code' or 'subl' depending on your IDE > making changes and save > go back to bash and do 'git add .' to add all changes you made to the repository > after all files and change are added do git commit -m 'message' to get your changes ready to be pushed to the repository > git push origin 'name of your branch' to push your changes to the git repository online. > going back to the online version, you should see that you have the ability to click the 'compare and pull request' button. > click on the base repository dropdown and choose yours as the base > go ahead and add a pull request and add a message that clearly explains what your branch is and the changes you made > if your TL accepted your Collaborators request you should be able to add as a reviewer on the right side > click on Create Pull Request and you are done.
+
+
+   Stretch Questions
+
+   1. What is the difference between an inline element and a block element? block elements happens on a new line while inline elements are within elements themeselves (like <span> or <a> or <img>)
+
+   2. What happens when an element is positioned absolutely? when an element is positioned absolutely, it allows you to position that element exactly where you want without it affecting any of the other elements.
+
+   3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+
+   4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+   display block elements : <p>, <ul>, <ol>.
+   inline elements: <span>, <em>
+   inline-block element: <span>
+
+   5. In your own words, explain the box model. What is the fix for the box model?
+   Bun (margin)
+   Lettuce(border)
+   Tomato(padding)
+   Burger(content)
+   Tomato (padding)(why you would have a tomato under your burger who knows)
+   Lettuce (border)(again why you would have lettuce on the bottom who knows)
+   Bun(margin)
