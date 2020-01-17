@@ -106,3 +106,11 @@
    Tomato (padding)(why you would have a tomato under your burger who knows)
    Lettuce (border)(again why you would have lettuce on the bottom who knows)
    Bun(margin)
+
+THE BOX MODEL FIX
+   html{
+   box-sizing: border-box;
+   }
+  *,*:before, *:after{
+    box-sizing: inheirt;
+  }
